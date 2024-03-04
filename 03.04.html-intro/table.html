@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML | Table</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid teal;
+      }
+      td,
+      th {
+        padding: 10px 20px;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul type="none">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="table.html">Users Table</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 style="color: brown">Users Table</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Adress</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">Parvin Alasgar</td>
+          <td>parvin@gmail.com</td>
+          <td>+994507777777</td>
+          <td rowspan="2">Baku, Azerbaijan</td>
+        </tr>
+        <tr>
+          <td>Cavidan</td>
+          <td>Hasanzada</td>
+          <td>cavidan@gmail.com</td>
+          <td>+994507777777</td>
+        </tr>
+        <tr>
+          <td>Ali</td>
+          <td>Zeynalov</td>
+          <td>ali@gmail.com</td>
+          <td>+994507777777</td>
+          <td>Masalli, Azerbaijan</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+  </body>
+</html>
