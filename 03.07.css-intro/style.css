@@ -1,0 +1,19 @@
+/* .text {
+  font-size: 24px;
+  color: blue;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+p {
+  color: green !important;
+}
+
+#parag {
+  color: black;
+} */
+
+/* priority list of selectors */
+/* !important, inline css, id, class, tag, user agent */

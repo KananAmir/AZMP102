@@ -1,0 +1,120 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.text {
+  color: red;
+  background-color: #93bc6f;
+}
+
+.text.bg-teal {
+  background-color: #4c5bc9;
+}
+
+.container .text {
+  color: blue;
+}
+
+#container .box {
+  background-color: teal;
+  width: 100px;
+  height: 100px;
+}
+.container .box {
+  background-color: red;
+}
+
+/* #text {
+  color: darkgoldenrod;
+} */
+
+p {
+  font-size: 12px;
+}
+
+span.text {
+  color: blue;
+  /* color: unset; */
+  /* background-color: transparent; */
+  background-color: unset;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* .box-1,
+.box-2,
+.box-3 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+} */
+
+.boxes .box {
+  /* background-color: red; */
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.box-1 {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.box-2 {
+  background-color: blue;
+}
+.box-3 {
+  background-color: teal;
+}
+.box-1:hover {
+  background-color: red;
+}
+.box-1:hover > span {
+  font-size: 2rem;
+  color: white;
+}
+
+/* pseudo classes vs pseudo elements */
+
+a:active {
+  color: #7d8234;
+}
+a:visited {
+  color: orange;
+}
+
+#username:focus {
+  background-color: teal;
+  color: red;
+}
+#username:focus::placeholder {
+  color: white;
+}
+
+/* .parag:nth-child(even) {
+  background-color: teal;
+}
+.parag:nth-child(odd) {
+  background-color: cyan;
+} */
+
+.parag:nth-child(3) {
+  background-color: red;
+}
+
+.parag:last-child {
+  color: green;
+}
+.parag:first-child {
+  color: blue;
+}
+
+input:invalid {
+  border: 2px solid red;
+}

@@ -1,0 +1,19 @@
+h1 {
+  color: rgb(180, 30, 30);
+  background-color: teal;
+}
+
+.box {
+  background-color: rgba(255, 0, 0, 0);
+  /* background-color: red; */
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 0.5; */
+}
+
+#save-pw {
+  accent-color: red;
+}
