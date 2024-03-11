@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        list-style: none;
+      }
+      .text:nth-child(even) {
+        background-color: #c68282;
+      }
+      .text:nth-child(odd) {
+        color: red;
+      }
+      .heading {
+        text-align: center;
+        margin: 2rem 0;
+        font-size: 5rem;
+        text-shadow: 5px 5px 10px orange;
+      }
+      .text:nth-child(1) {
+        max-width: 600px;
+        /* text-align-last: center; */
+        /* text-align: left; */
+        /* text-align: right; */
+        /* text-align: center; */
+        text-align: justify;
+        /* text-decoration-line: underline;
+        text-decoration-color: blue;
+        text-decoration-thickness: 3px;
+        text-decoration-style: dashed; */
+        text-decoration: overline blue wavy;
+        /* text-transform: lowercase; */
+        /* text-transform: uppercase; */
+        text-transform: capitalize;
+        text-indent: 2rem;
+        letter-spacing: 0.5rem;
+        line-height: 1.5rem;
+        word-spacing: 2rem;
+        /* white-space: nowrap; */
+      }
+      .lorem {
+        margin: 2rem 0;
+        /* background-color: teal; */
+      }
+    </style>
+    <title>CSS - Texts</title>
+  </head>
+  <body>
+    <h1 class="heading">AZMP102</h1>
+    <div class="container">
+      <p class="text">
+        Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Excepturi necessitatibus alias cumque iusto, optio
+        eligendi error? Tempora, ea eos? Nesciunt, necessitatibus inventore
+        deserunt consectetur culpa tenetur ex odit eaque blanditiis. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Fugiat minima nesciunt iste
+        nam corrupti neque cum alias. Sed repellat modi consectetur cum ab eius
+        earum blanditiis, culpa dicta, doloremque ad.
+      </p>
+      <p class="text">Lorem ipsum dolor sit amet.</p>
+      <p class="text">Lorem ipsum dolor sit amet.</p>
+      <p class="text">Lorem ipsum dolor sit amet.</p>
+      <p class="text">Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <p class="lorem">lorem <sup>ipsum</sup></p>
+    <p class="lorem">lorem <sub>ipsum</sub></p>
+  </body>
+</html>

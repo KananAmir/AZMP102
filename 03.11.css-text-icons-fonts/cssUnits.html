@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 10px;
+      }
+      /* css units: px, em, rem, vh, vw, % */
+      /* 1rem = 16px */
+      /* vw - viewport width
+      vh - viewport height */
+      h1 {
+        /* font-size: 24px; */
+        font-size: 2rem;
+      }
+      p {
+        font-size: 2.5rem;
+      }
+      p span {
+        font-size: 2em;
+      }
+
+      .container {
+        background-color: teal;
+        width: 30vw;
+        height: 40vh;
+      }
+      .container .box {
+        width: 50vw;
+        height: 10rem;
+        background-color: #dd4f4f;
+      }
+
+      .container-2 {
+        background-color: orange;
+        width: 60rem;
+        height: 30rem;
+      }
+      .container-2 .box-2 {
+        background-color: blue;
+        width: 50%;
+        height: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>
+      Lorem ipsum dolor sit amet <span>consectetur</span>, adipisicing elit.
+    </p>
+
+    <hr />
+
+    <div class="container">
+      <div class="box"><p>azmp102</p></div>
+    </div>
+
+    <hr />
+    <div class="container-2">
+      <div class="box-2"></div>
+    </div>
+  </body>
+</html>
