@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Fira Mono", monospace;
+  src: url("./assests/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+  font-family: "Ubuntu", sans-serif;
+  src: url("./assests/fonts/Ubuntu/Ubuntu-Bold.ttf");
+}
+
+.text {
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+  /* font-family: "Fira Mono", monospace; */
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bold;
+}
