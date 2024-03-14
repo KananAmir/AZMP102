@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: #20484f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+
+.header nav ul {
+  display: flex;
+  column-gap: 2rem;
+}
+.header nav ul li a {
+  color: #fff;
+}
+.header nav ul li:hover a {
+  color: orange;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid;
+}
+
+.header .login-signup ul {
+  display: flex;
+  /* gap: 2rem; */
+}
+.header .login-signup ul li a {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+.header .login-signup ul li:hover a {
+  background-color: #b8e4da;
+  color: #20484f;
+}
+
+.header .logo {
+  color: #fff;
+}
+
+/* TEAM */
+
+#team {
+  padding: 5rem 0;
+  margin-top: 75px;
+}
+#team .team .team-members {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+}
+
+#team .team .team-members .member-card {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  border-radius: 10px;
+  padding-top: 20px;
+  width: 22%;
+}
+#team .team .team-members .member-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+}
+#team .team .team-members .member-card .member-photo {
+  width: 100%;
+}
+#team .team .team-title,
+#team .team .team-info {
+  text-align: center;
+}
+#team .team .team-info {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#team .team .member-card .social-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+#team .team .member-card .social-icons a {
+  color: #072125;
+  border: 1px solid #072125;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
