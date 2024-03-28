@@ -1,0 +1,11 @@
+#home {
+  .home {
+    display: flex;
+
+    #cards {
+      // @extend %equal-heights;
+      // @extend %center;
+      // align-items: flex-end;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+header {
+  background-color: $bg-color;
+  // @include flexBox($justify: space-around, $align: flex-end);
+  // @include flexBox($justify: space-between, $align: center);
+
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+
+  @include flexBox;
+
+  h1 {
+    color: $primary-color;
+    font-family: $main-font;
+  }
+  nav {
+    ul {
+      display: flex;
+      li {
+        a {
+          text-decoration: none;
+          color: $primary-color;
+          @media only screen and (max-width: 991px) {
+            color: blanchedalmond;
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    border: $border;
+  }
+
+  // @media only screen and (max-width: 991px) {
+  //   h1 {
+  //     font-size: 16px;
+  //   }
+  //   nav {
+  //     ul {
+  //     }
+  //   }
+  // }
+
+  @include for-phone-only {
+    font-size: 1rem;
+    h1 {
+      text-decoration: underline;
+    }
+  }
+}

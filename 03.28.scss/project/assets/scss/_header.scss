@@ -1,0 +1,58 @@
+header {
+  background-color: $primary-color;
+
+  .header {
+    @include flexBox($justify: space-between);
+    padding: 20px 0;
+    .logo {
+      color: $color-white;
+      font-size: 2rem;
+    }
+
+    nav {
+      ul {
+        display: flex;
+        gap: 20px;
+        li {
+          a {
+            color: $color-white;
+          }
+        }
+      }
+
+      @media only screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+    .social-icons {
+      i {
+        color: $color-white;
+      }
+      button {
+        background-color: $secondary-color;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 2px solid $secondary-color;
+
+        &:hover {
+          background-color: transparent;
+          color: $secondary-color;
+        }
+      }
+      @media only screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+
+    .fa-solid {
+      color: $color-white;
+
+      &.fa-bars {
+        display: none;
+        @media only screen and (max-width: 767px) {
+          display: inline;
+        }
+      }
+    }
+  }
+}

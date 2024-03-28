@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  color: #333;
+  font-family: "Helvetica, sans-serif";
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+@media only screen and (max-width: 991px) {
+  header nav ul li a {
+    color: blanchedalmond;
+  }
+}
+header button {
+  border: "1px solid black";
+}
+@media (max-width: 599px) {
+  header {
+    font-size: 1rem;
+  }
+  header h1 {
+    text-decoration: underline;
+  }
+}
+
+#home .home {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
